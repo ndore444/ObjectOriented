@@ -1,0 +1,26 @@
+https://ucdenver.instructure.com/courses/371849/assignments/503502#submit
+
+Plan:
+	1) place a 'submarine' into a 10x10 grid
+	2) fire 15 randomly placed test shots into the grid
+	3)display ship on grid, display shots fired
+	4) process whether ship was hit and display that
+	5) display whether the ship is sunk or not 
+
+
+Classes:
+	WaterVehicle 
+		-member variables
+			-length of ship (in number of grid spaces)
+			-starting grid location
+			-horizontal or vertical orientation on grid
+			-sunk (Boolean indicating whether the ship has been sunk or not)
+		-Functions
+			-constructors, 
+			-accessors/mutators (for location of ship, and for member variables :) )
+			-void placeShip() to set ship into grid
+
+Functions:
+	void testFire(int _shots) // fires _shots number of shots randomly into the grid.
+
+
